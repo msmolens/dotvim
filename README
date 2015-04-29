@@ -1,0 +1,18 @@
+Vim configuration with plugins as git submodules.
+
+INSTALLATION:
+
+    git clone https://github.com/msmolens/dotvim.git ~/.vim
+    cd ~/.vim
+    git submodule init
+    git submodule update
+
+ADD PLUGIN:
+
+    git submodule add https://github.com/path/to/new-plugin.git bundle/new-plugin
+    git commit -m "Add new-plugin"
+
+UPGRADE ALL PLUGINS:
+
+    git submodule foreach git pull origin master
+
