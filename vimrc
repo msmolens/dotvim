@@ -4,6 +4,9 @@ execute pathogen#infect()
 set nocompatible
 "filetype off
 
+"https://github.com/bling/vim-airline/issues/585
+set encoding=utf-8
+
 "Color scheme
 set background=dark
 if has("gui_running")
@@ -11,7 +14,7 @@ if has("gui_running")
 	let g:zenburn_old_Visual = 1
 	let g:zenburn_alternate_Visual = 1
 
-	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h11'
+	set guifont=DejaVu_Sans_Mono_for_Powerline:h11
 
 endif
 
