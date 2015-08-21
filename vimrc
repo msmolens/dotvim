@@ -14,7 +14,14 @@ if has("gui_running")
 	let g:zenburn_old_Visual = 1
 	let g:zenburn_alternate_Visual = 1
 
-	set guifont=DejaVu_Sans_Mono_for_Powerline:h11
+	if has("unix")
+		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
+	elseif has("win32")
+		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
+	endif
+
+	set lines=50
+	set columns=100
 
 endif
 
