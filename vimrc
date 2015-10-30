@@ -29,6 +29,9 @@ if has("gui_running")
 
 endif
 
+"highlight search
+set hlsearch
+
 "set guioptions-=m  "menu bar
 set guioptions-=T  "toolbar
 "set guioptions-=r  "scrollbar
