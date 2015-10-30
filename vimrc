@@ -12,19 +12,20 @@ set shiftwidth=4
 
 "Color scheme
 set background=dark
+
 if has("gui_running")
-	colorscheme zenburn
-	let g:zenburn_old_Visual = 1
-	let g:zenburn_alternate_Visual = 1
+    colorscheme zenburn
+    let g:zenburn_old_Visual = 1
+    let g:zenburn_alternate_Visual = 1
 
-	if has("unix")
-		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
-	elseif has("win32")
-		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
-	endif
+    if has("unix")
+	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
+    elseif has("win32")
+	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
+    endif
 
-	set lines=50
-	set columns=100
+    set lines=50
+    set columns=100
 
 endif
 
