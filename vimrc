@@ -10,6 +10,11 @@ set encoding=utf-8
 set textwidth=80
 set shiftwidth=4
 
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#313633
+  autocmd BufEnter * match OverLength /\%>80v.\+/
+augroup END
+
 "Color scheme
 set background=dark
 
