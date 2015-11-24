@@ -50,8 +50,8 @@ set hidden
 "vim-airline
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline_theme = 'airlineish'
-"let g:airline_theme = 'zenburn'
-let g:airline_theme = 'kolor'
+let g:airline_theme = 'zenburn'
+"let g:airline_theme = 'kolor'
 let g:airline_powerline_fonts = 1
 
 "commentary
