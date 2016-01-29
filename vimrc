@@ -81,6 +81,10 @@ let g:detectindent_preferred_expandtab = 1
 let g:detectindent_preferred_indent = 2
 "let g:detectindent_preferred_when_mixed = 1
 
+"vim-easytags
+:let b:easytags_auto_highlight = 0
+:let g:easytags_by_filetype = expand("~/.vimtags/")
+
 "Easymotion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
