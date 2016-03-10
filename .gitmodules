@@ -40,3 +40,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
+[submodule "bundle/vim-qml"]
+	path = bundle/vim-qml
+	url = https://github.com/peterhoeg/vim-qml.git
