@@ -3,6 +3,7 @@ execute pathogen#infect()
 
 set nocompatible
 "filetype off
+set cscopetag
 
 "https://github.com/bling/vim-airline/issues/585
 set encoding=utf-8
