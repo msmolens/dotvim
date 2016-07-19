@@ -79,6 +79,11 @@ map <C-h> <C-w><Left>
 map <C-Tab> :bnext<cr>
 map <C-S-Tab> :bprevious<cr>
 
+"ack.vim
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
 "DetectIndent
 let g:detectindent_preferred_expandtab = 1
 let g:detectindent_preferred_indent = 2
