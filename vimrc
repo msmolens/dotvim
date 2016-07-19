@@ -25,9 +25,9 @@ if has("gui_running")
     let g:zenburn_alternate_Visual = 1
 
     if has("unix")
-	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
+        set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
     elseif has("win32")
-	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
+        set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
     endif
 
     set lines=50
