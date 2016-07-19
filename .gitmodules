@@ -34,9 +34,6 @@
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = https://github.com/xolox/vim-misc
-[submodule "bundle/vim-easytags"]
-	path = bundle/vim-easytags
-	url = https://github.com/xolox/vim-easytags
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
