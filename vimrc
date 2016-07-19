@@ -33,6 +33,8 @@ if has("gui_running")
     set lines=50
     set columns=100
 
+    set fillchars=vert:\│
+    autocmd ColorScheme * highlight VertSplit guifg=bg
 endif
 
 "highlight search
