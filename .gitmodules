@@ -46,3 +46,6 @@
 [submodule "bundle/ctrlp_bdelete.vim"]
 	path = bundle/ctrlp_bdelete.vim
 	url = https://github.com/j5shi/ctrlp_bdelete.vim.git
+[submodule "bundle/vim-pug"]
+	path = bundle/vim-pug
+	url = https://github.com/digitaltoad/vim-pug.git
