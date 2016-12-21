@@ -145,3 +145,16 @@ nnoremap <Leader>0 :10b<CR>
 
 "tabbar
 nmap <F8> :TagbarToggle<CR>
+
+"Adjust font size bindings
+"http://vim.wikia.com/wiki/Change_font_size_quickly
+nnoremap <C-Up> :silent! let &guifont = substitute(
+ \ &guifont,
+ \ ':h\zs\d\+',
+ \ '\=eval(submatch(0)+1)',
+ \ 'g')<CR>
+nnoremap <C-Down> :silent! let &guifont = substitute(
+ \ &guifont,
+ \ ':h\zs\d\+',
+ \ '\=eval(submatch(0)-1)',
+ \ 'g')<CR>
