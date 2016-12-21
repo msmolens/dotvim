@@ -8,6 +8,7 @@ set cscopetag
 "https://github.com/bling/vim-airline/issues/585
 set encoding=utf-8
 
+set expandtab
 set textwidth=80
 set shiftwidth=4
 
