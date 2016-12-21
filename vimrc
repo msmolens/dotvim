@@ -12,6 +12,8 @@ set expandtab
 set textwidth=80
 set shiftwidth=4
 
+set shell=bash
+
 augroup vimrc_autocmds
   autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#313633
   autocmd BufEnter * match OverLength /\%>80v.\+/
