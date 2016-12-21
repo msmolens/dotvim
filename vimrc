@@ -63,6 +63,7 @@ let g:airline_powerline_fonts = 1
 "commentary
 let g:commentary_map_backslash = 0
 autocmd FileType cmake setlocal commentstring=#\ %s
+autocmd FileType proto setlocal commentstring=//%s
 
 "ctrlp
 "let g:ctrlp_map = '<c-p>'
