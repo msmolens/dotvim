@@ -14,6 +14,9 @@ set shiftwidth=4
 
 set shell=bash
 
+autocmd BufNewFile,BufRead *.jade set filetype=jade
+autocmd Filetype jade setlocal sw=2 tw=0
+
 augroup vimrc_autocmds
   autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#313633
   autocmd BufEnter * match OverLength /\%>80v.\+/
